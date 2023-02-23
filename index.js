@@ -2,6 +2,7 @@ const root = document.querySelector("#root");
 
 function init(){
     window.addEventListener("hashchange", function(){
+        root.innerHTML = " ";
         console.log(window.location.hash)
         switch(window.location.hash){
             case "#cesar":
@@ -13,6 +14,8 @@ function init(){
             case "#contatos":
             root.appendChild(cesar());
             break;
+            default:
+            root.appendChild(cesar());
         }
     })
 }
