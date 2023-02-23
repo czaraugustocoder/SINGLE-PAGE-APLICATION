@@ -1,4 +1,4 @@
-export default main = function() {
+function  cesar() {
     const container = document.createElement('div');
 
     const template = `
@@ -7,4 +7,6 @@ export default main = function() {
     `;
 
     container.innerHTML = template;
+
+    return container;
 }
