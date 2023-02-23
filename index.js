@@ -9,10 +9,10 @@ function init(){
             root.appendChild(cesar());
             break;
             case "#about":
-            root.appendChild(cesar());
+            root.appendChild(about());
             break;
             case "#contatos":
-            root.appendChild(cesar());
+            root.appendChild(contato());
             break;
             default:
             root.appendChild(cesar());
